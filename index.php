@@ -29,7 +29,7 @@ if(mysqli_query($conn, $query)){
     echo "";
 	$to = $email;
 $subject = "SUCCESSFUL SUBSCRIPTION";
-$txt = "Thank you for subscription. \n I'll keep in touch with you";
+$txt = "Thank you for subscription. \n I'll keep in touch with u";
 $headers = "From: someone@franskibasa.com" ;
 
 if(mail($to,$subject,$txt,$headers)){
